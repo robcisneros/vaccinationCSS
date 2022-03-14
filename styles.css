@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #f7fdff;*/
+  background-color: white;
+}
+li,
+a,
+p {
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.main__nav {
+  margin-right: 30px;
+}
+.logo{
+  margin-right: auto;
+}
+.logo h2{
+  font-size: 25px;
+  color: #2949c7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  margin-left: 20px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: #0088a9;
+}
+.contenedor {
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 100%;
+}
+.contenedor h1 {
+  font-size: 60px;
+  color: rgb(37, 16, 131);
+  text-decoration: none;
+  font-weight: 600;
+}
+.contenedor h2 {
+  font-size: 40px;
+  color: rgb(37, 16, 131);
+  text-decoration: none;
+  font-weight: 600;
+}
+.contenedor h3 {
+  font-size: 15px;
+  color: rgb(37, 16, 131);
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.contenedor aside {
+  width: 45%;
+}
+
+.contenedor1__image {
+  width: 50%;
+  height: 700px;
+}
+.contenedor img {
+  /*height: 500px;*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.contenedor1__divs_icons {
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 15px;
+  color: rgb(37, 16, 131);
+  text-decoration: none;
+}
+
+.contenedor1__schedule {
+  /*    display: inline-block;*/
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+
+  font-size: 17px;
+  color: rgb(37, 16, 131);
+  text-decoration: none;
+}
+
+.one__row {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.opacidad {
+  opacity: 0.2;
+}
+.contenedor2__image {
+  width: 20%;
+  height: 70px;
+}
+.contenedor__relleno{
+  width: 50%;
+  height: 20px;
+}
+.cards{
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 100%;
+}
+.contenedor__card {
+  width: 20%;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 15px;
+	display: flex;
+	flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.contenedor__card:hover{
+  background-color: rgb(246, 248, 248);
+}
+.icon__card{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 8px;
+}
+.square__icon{
+  background-color: rgb(229, 245, 250);
+  width: 50px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: .25rem;
+}
+.content__card{
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+.title__card{
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+.content__card p{
+  font-size: 14px;
+}
+.contenedor__card h3{
+  font-size: 17px;
+  color: rgb(37, 16, 131);
+  text-decoration: none;
+}
+.wrapper__acordeon{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.wrapper__icon__acordeon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: .25rem;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgba(220, 247, 245, 0.5);
+}
+.wrapper__titulo__acordeon {
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 5px;
+  
+}
+
+footer{
+  margin:20px 15px 0px 15px;
+  background-color: #eef3ff;
+}
+.letras h2 {
+  font-size: 25px;
+  color: #2949c7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.material-icons.md-48 { font-size: 48px; }
