@@ -52,13 +52,25 @@ header {
   color: #0088a9;
 }
 .contenedor {
-  display: inline-block;
+  /* display: inline-block; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
   width: 100%;
 }
+/* .aside1 {
+  display: flex;
+  background-color: pink;
+}
+
+@media (max-width: 1200px) {
+  .aside1 {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap
+  }
+} */
 .contenedor h1 {
   font-size: 60px;
   color: rgb(37, 16, 131);
@@ -235,3 +247,4 @@ footer{
 }
 
 .material-icons.md-48 { font-size: 48px; }
+
